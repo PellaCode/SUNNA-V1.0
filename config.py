@@ -10,7 +10,9 @@ SESSION_STRING = os.getenv("SESSION_STRING")
 
 DOWNLOAD_DIR = os.getenv("DOWNLOAD_DIR", "downloads")
 SESSION_NAME = os.getenv("SESSION_NAME", "sunna_bot")
-WELCOME_IMAGE = os.getenv("WELCOME_IMAGE", "assets/welcome.jpg")
+
+# رابط مباشر لصورة PNG متوافقة مع Telegram
+WELCOME_IMAGE = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Audio_play_icon.png/600px-Audio_play_icon.png"
 
 YTDLP_COOKIES = os.getenv("YTDLP_COOKIES") or None
 YTDLP_USER_AGENT = os.getenv("YTDLP_USER_AGENT")
