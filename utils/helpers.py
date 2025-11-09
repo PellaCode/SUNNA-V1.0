@@ -12,7 +12,6 @@ def ensure_dirs():
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 
     os.makedirs("sessions", exist_ok=True)
-    os.makedirs("assets/thumbnails", exist_ok=True)
     os.makedirs("logs", exist_ok=True)
 
 def is_url(text: str) -> bool:
